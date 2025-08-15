@@ -1,14 +1,12 @@
 import { Stack } from "expo-router";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+import { View } from 'react-native'
 
 export default function RootLayout() {
   return (
-    <SafeAreaProvider>
-      <Stack screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="index" />
-        <Stack.Screen name="signin" />
-        <Stack.Screen name="join" />
-      </Stack>
-    </SafeAreaProvider>
+    <Stack screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="/" />  
+      <Stack.Screen name="signin" /> 
+      <Stack.Screen name="join" />   
+    </Stack>
   );
 }
