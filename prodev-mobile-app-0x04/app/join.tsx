@@ -17,7 +17,7 @@ export default function Join() {
         <View style={styles.titleTextGroup}>
           <Text style={styles.titleText}>Create your</Text>
           <Text style={styles.titleText}>Account</Text>
-          <Text style={styles.subText}>Fill in your details to continue</Text>
+          <Text style={styles.signupSubTitleText}>Fill in your details to continue</Text>
         </View>
 
         <View style={styles.formGroup}>
